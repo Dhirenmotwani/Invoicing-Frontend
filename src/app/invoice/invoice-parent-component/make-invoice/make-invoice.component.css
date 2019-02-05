@@ -1,0 +1,324 @@
+.main_make_invoice_div{
+  position: absolute;
+  margin-left: 280px;
+  top: 20px;
+}
+.invoice_div{
+  position: absolute;
+  text-align: left;
+  padding-bottom: 20px;
+  background-color: #fff;
+  /* max-height: 100%; */
+  margin-left: 20%;
+  margin-top: 20px;
+  width:800px;
+}
+h2{
+  margin-left: 50px;
+  margin-top: 20px;
+  display: inline-block;
+  /* position: absolute; */
+}
+#heading{
+  margin-left: 5%;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  font-size: 21px;
+}
+#address{
+  margin-left: 5%;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  font-size: 21px;
+}
+#cancel{
+  font-family: Nimbus Sans;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 250px;
+  /* margin-right: 20px; */
+  color: inherit;
+  padding: 10px;
+  font-size: 21px;
+  background-color: inherit;
+  text-align: center;
+  /* display: inline-block; */
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#cancel:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+#save{
+  font-family: Nimbus Sans;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 350px;
+  /* margin-right: 20px; */
+  color: #fff;
+  padding: 10px;
+  font-size: 21px;
+  width: 90px;
+  background-color: #47D685;
+  text-align: center;
+  /* display: inline-block; */
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#save:hover{
+  cursor: pointer;
+  background-color:#28a745;
+}
+#send{
+  font-family: Nimbus Sans;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 450px;
+  /* margin-right: 20px; */
+  color: #fff;
+  padding: 10px;
+  font-size: 21px;
+  width: 90px;
+  background-color: #47D685;
+  text-align: center;
+  /* display: inline-block; */
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#send:hover{
+  cursor: pointer;
+  background-color:#28a745;
+}
+.split{
+  width: 45%;
+}
+/* .left3{
+  position: relative;
+  top: -175px;
+  margin-left: 2%;
+  display: inline-block;
+} */
+.left2{
+  margin-left: 3%;
+  display: inline-block;
+  left:0px;
+}
+.right2{
+  display: inline-block;
+  margin-left: -13.5%;
+}
+.billing_heading{
+  color: #007bff;
+  font-size: 16px;
+  margin-left: 3%;
+}
+.div_invoice_details{
+  margin-left: 3%;
+  width: 30%;
+  display: inline-block;
+}
+.div_invoice_details p{
+  color: #007bff;
+  font-size: 16px;
+}
+.div_invoice_details_input{
+  border: 1px dashed #0F32EF;
+  padding: 6px;
+  color: #495057;
+}
+.div_invoice_details_inputdate{
+  border: none;
+  padding: 4px;
+  color: #495057;
+  width: 100px;
+}
+#div_invoice_details_input{
+  border: 1px dashed #0F32EF;
+  padding: 8px;
+  color: #495057;
+  width: 150px;
+  margin-left: 4%;
+  font-size: 18px;
+  background: inherit;
+}
+#div_invoice_details_input:hover{
+  cursor: pointer;
+}
+#div_invoice_details_input1{
+  border: 1px dashed #0F32EF;
+  padding: 8px;
+  color: #495057;
+  width: 200px;
+  margin-left: 4%;
+  font-size: 18px;
+  background: inherit;
+}
+#div_invoice_details_input1:hover{
+  cursor: pointer;
+}
+.space2{
+  margin-left: 35%;
+}
+table{
+  color: #212529;
+  margin-top: 25px;
+  outline:  1px solid #003366;
+  border-top: 3px solid #003366;
+  padding: none;
+  z-index: 1;
+  border-collapse: collapse;
+}
+.table_heading_particulars{
+  border: none;
+  padding: 20px;
+  border-bottom:2px solid #dee2e6;
+  color: #495057;
+  font-size: 20px;
+  text-align: left;
+  background-color: #e9ecef;
+}
+.table_heading_particulars th{
+  padding: 10px;
+  font-size: 18px;
+}
+td{
+  padding: 10px;
+  border-top:1px solid #dee2e6;
+}
+.payment_details_table{
+  width: 90%;
+  margin-left: 4%;
+}
+h3{
+  margin-left: 4%;
+}
+.Settings{
+  margin-left: 850px;
+  margin-top:-10%;
+  position: absolute;
+}
+#title{
+  font-size: 30px;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+.pay_method{
+  text-align: left;
+  padding-bottom: 5px;
+  background-color: white;
+  max-height: 100%;
+  margin-left: 1%;
+  margin-top: 10px;
+  width:200px;
+  border: 1px solid black;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+.recurring{
+  text-align: left;
+  padding-bottom: 5px;
+  background-color:#ebf0f6;
+  /* max-height: 100%; */
+  margin-left: 1%;
+  margin-top: 10px;
+  width:200px;
+  border: 1px solid black;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+#pay_title{
+  background: inherit;
+  font-size: 18px;
+  width:100%;
+  color: inherit;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  padding: 5px 5px 1px 5px;
+  border: none;
+}
+#pay_title:hover{
+  cursor: pointer;
+}
+#recurring_title{
+  background: #fff;
+  font-size: 18px;
+  width:100%;
+  color: inherit;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  padding: 8px;
+  border: none;
+}
+#recurring_title:hover{
+  cursor: pointer;
+}
+#bank{
+  font-size: 15px;
+  padding: 1px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#paid{
+  font-size: 20px;
+  padding: 1px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#paid1{
+  font-size: 15px;
+  padding: 0px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+#schedule{
+  font-size: 20px;
+  margin-left: 5px;
+  padding: 5px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+input[type='radio'] {
+  -webkit-appearance:none;
+  width:20px;
+  height:20px;
+  border:1px solid darkgray;
+  border-radius:50%;
+  outline:none;
+  box-shadow:0 0 5px 0px gray inset;
+  /* margin-left: 60px; */
+}
+input[type='radio']:hover {
+  box-shadow:0 0 5px 0px orange inset;
+}
+
+input[type='radio']:before {
+  content:'';
+  display:block;
+  width:60%;
+  height:60%;
+  margin: 20% auto;
+  border-radius:50%;
+}
+input[type='radio']:checked:before {
+  background:#007BFF;
+}
+#rd1{
+  margin-left: 120px;
+}
+#rd2{
+  margin-left: 80px;
+}
+#rd3{
+  margin-left: 72px;
+}
+#rd4{
+  margin-left: 57px;
+}
+#rd5{
+  margin-left: 98px;
+}

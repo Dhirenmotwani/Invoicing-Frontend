@@ -1,0 +1,51 @@
+.back_button{
+  position: fixed;
+  left: 330px;
+  top: 5%;
+  background-color: inherit;
+  border: none;
+  font-size: 50px;
+  }
+  .back_button:hover{
+    cursor: pointer;
+  }
+*{
+  text-align: left;
+}
+table {
+      border-collapse: collapse;
+      width: 960px;
+      overflow: auto;
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+    }
+    th{
+      text-align: center;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    td {
+      text-align: center;
+      padding: 18px;
+      cursor: pointer;
+      border-top: 1px solid #ddd;
+    }
+    th span
+    {
+        display:block;
+    }
+    tr:nth-child(odd) {background-color: #fff;}
+    #table-wrapper {
+      position:relative;
+    }
+    #table-scroll {
+      position: absolute;
+      height:500px;
+      margin-left: 330px;
+      overflow: hidden;
+      margin-top:1%;
+    }
+    #table-wrapper table {
+      /* width:90%; */
+    }

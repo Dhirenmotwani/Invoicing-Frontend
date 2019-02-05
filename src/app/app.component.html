@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="body"style="text-align:center">
+  <div class="sidenav partition">
+    <img [src]="sidebarimagepath"id="logo" alt="">
+    <a routerLink="/customers" ><i class="fa fa-users" aria-hidden="true"></i>&emsp;Customer</a>
+    <a routerLink="/invoice" (click)="invoiceService.tableopen()"href="#"><i class="fa fa-file-text" aria-hidden="true"></i>&emsp;Invoices</a>
+    <a routerLink="/service" (click)="serviceService.servicetableopen()"href="#"><i class="fa fa-bars" aria-hidden="true"></i>&emsp;Services</a>
+    <a routerLink="/profile"(click)="profileService.addressopen()" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&emsp;Profiles</a>
+    <a routerLink="" href="#"><i class="fa fa-power-off" aria-hidden="true"></i>&emsp;Logout</a>
+  </div>
+  <div class="right partition">
+  </div>
+  <app-corner-profile></app-corner-profile>
+<router-outlet></router-outlet>

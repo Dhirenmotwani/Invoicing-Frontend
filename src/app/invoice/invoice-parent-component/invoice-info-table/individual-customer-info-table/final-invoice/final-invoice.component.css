@@ -1,0 +1,97 @@
+.back_button{
+  position: fixed;
+  left: 330px;
+  top: 5%;
+  background-color: inherit;
+  border: none;
+  font-size: 50px;
+  }
+  .back_button:hover{
+    cursor: pointer;
+  }
+.invoice_div{
+  position: absolute;
+  text-align: left;
+  padding-bottom: 20px;
+  background-color: white;
+  max-height: 100%;
+  margin-left: 330px;
+  margin-top: 90px;
+  width:960px;
+}
+.split{
+  width: 45%;
+}
+.left3{
+  position: relative;
+  top: -175px;
+  margin-left: 2%;
+  display: inline-block;
+}
+.left2{
+  margin-left: 3%;
+  display: inline-block;
+  left:0px;
+}
+.right2{
+  display: inline-block;
+}
+.billing_heading{
+  color: #007bff;
+  font-size: 16px;
+}
+.div_invoice_details{
+  margin-left: 3%;
+  width: 20%;
+  display: inline-block;
+}
+.div_invoice_details p{
+  color: #007bff;
+  font-size: 16px;
+}
+.div_invoice_details_input{
+  border: 1px dashed #0F32EF;
+  padding: 10px;
+  color: #495057;
+}
+table{
+  color: #212529;
+  margin-top: 25px;
+  outline:  1px solid #003366;
+  border-top: 3px solid #003366;
+  padding: none;
+  z-index: 1;
+  border-collapse: collapse;
+}
+.table_heading_particulars{
+  border: none;
+  padding: 20px;
+  border-bottom:2px solid #dee2e6;
+  color: #495057;
+  font-size: 20px;
+  text-align: left;
+  background-color: #e9ecef;
+}
+.table_heading_particulars th{
+  padding: 10px;
+  font-size: 18px;
+}
+td{
+  padding: 10px;
+  border-top:1px solid #dee2e6;
+}
+.payment_details_table{
+  width: 90%;
+  margin-left: 3%;
+}
+.payment_type_table{
+  margin-left: 3%;
+  position: relative;
+  width: 50%;
+  display: inline-block;
+}
+.total_table{
+  width: 40%;
+  position: relative;
+  display: inline-table;
+}

@@ -1,0 +1,13 @@
+<p>
+  <app-service-title></app-service-title>
+  <app-add-service-button></app-add-service-button>
+  <app-service-template-buttons></app-service-template-buttons><br>
+  <app-service-popup *ngIf="serviceService.servicepopupdisplay"></app-service-popup>
+  <app-serviceeditpoup *ngIf="serviceService.servicepopdisplay"></app-serviceeditpoup>
+<app-person-edit-service *ngIf="serviceService.persondisplay"></app-person-edit-service>
+<app-services-edit *ngIf="serviceService.servicedisplay"></app-services-edit>
+<app-template-overview *ngIf="serviceService.templatedisplay"></app-template-overview>
+<app-template-info-edit *ngIf="serviceService.informationdisplay"></app-template-info-edit>
+<app-service-table *ngIf="serviceService.servicetabledisplay"></app-service-table>
+<router-outlet></router-outlet>
+</p>

@@ -1,0 +1,110 @@
+.paid_form input[type=text]{
+  color:#495057;
+  display: inline;
+  margin-top:1%;
+  margin-bottom:1%;
+  border:1px solid #ced4da;
+  border-bottom:1px solid #ddd;
+  background-clip: padding-box;
+  border-radius: 5px;
+  width:40%;
+  margin-left: 5%;
+  padding:10px 10px 10px 10px;
+  background-color: #fff;
+}
+.paid_form input::placeholder{
+  font-size:20px;
+  color:#dedede;
+}
+.paid_form input[type=date]{
+  color:#495057;
+  margin-top:1%;
+  margin-bottom:1%;
+  border:1px solid #ced4da;
+  background-clip: padding-box;
+  width:40%;margin-left: 5%;
+  padding:10px 10px 10px 10px;
+  background-color: #fff;
+}
+#paid_popup{
+  text-align: left;
+  display: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius:5px;
+  width:70%;
+  margin-left:25%;
+  background-color:white;
+  padding-bottom: 20px;
+}
+  #paid_popup h2{
+  color:#052A43;
+  padding:15px 5px 0px 30px;
+}
+#cancel{
+background: #dedede;
+border: none;
+text-decoration:none;
+width:8%;
+padding: 10px;
+font-size: 18px;
+border-radius: 5px;
+margin-right: 80%;
+margin-top: 1%;
+margin-left: 2%;
+}
+#cancel:hover{
+cursor: pointer;
+}
+#add{
+background: #007bff;
+color: #fff;
+border-color: #007bff;
+border: none;
+text-decoration:none;
+width:6%;
+padding: 10px;
+font-size: 18px;
+border-radius: 5px;
+margin-top: 1%;
+margin-left: 2%;
+}
+#add:hover{
+cursor: pointer;
+}
+#one{
+margin-left:5%;
+font-size:20px;
+}
+#two{
+padding-top:3px;
+margin-left:34%;
+font-size:20px;
+}
+#three{
+margin-top:0%;
+margin-left:5%;
+font-size:20px;
+}
+select {
+-webkit-appearance: menulist;
+align-items: center;
+white-space: pre;
+-webkit-rtl-ordering: logical;
+-moz-appearance: none;
+appearance: none;       /* remove default arrow */
+/* background-image: url(...);   /* add custom arrow */
+margin-left: 5%;
+width: 42%;
+padding: 5px;
+font-size: 15px;
+border:1px solid #ced4da;
+border-bottom:1px solid #ddd;
+background-color: #fff;
+color:#495057;
+background-clip: padding-box;
+margin-top:1%;
+margin-bottom:1%;
+}
+hr.new2 {
+border-top: 2px dashed #dedede;
+}

@@ -1,0 +1,131 @@
+.export_excel_popup{
+  text-align: left;
+    background-color:white;
+    position: absolute;
+    z-index: 100;
+    color:#052A43;
+    width:70%;
+    left: 15%;
+    border-radius: 6px;
+    top: 5%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  /* popup title styling */
+  .export_excel_popup p{
+    font-weight: bold;
+    font-size: 25px;
+    width:100%;
+    margin-left: 5%;
+  }
+  /* poup title div styling */
+  .export_excel_popup_heading{
+    border-bottom: 2px dashed #e9ecef;
+    height: 10%;
+  }
+  /* popup buttons div styling */
+  .export_excel_popup_lower_div{
+    padding: 20px;
+    width: 100%;
+  }
+  /* button styling */
+  .export_excel_popup_lower_div button{
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    color: #707070;
+  }
+  .export_excel_popup_lower_div button:hover{
+    cursor: pointer;
+  }
+  #buttons_exportexcel_popup_blue{
+    margin-left: 34%;
+    color: #56a7ff;
+  }
+  /* middle div styling */
+  .export_excel_popup_middle_div{
+    border-bottom: 2px dashed #e9ecef;
+    padding: 20px;
+    padding-bottom: 25%;
+  }
+  /* input stylings */
+  .export_excel_popup_middle_div input{
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    margin-right:5%;
+    width: 28%;
+  }
+
+  .export_excel_popup_middle_div select{
+    border: none;
+    width: 28%;
+  }
+  .export_excel_popup_middle_div select-selected:after{
+    background-color: red;
+  }
+  .export_excel_popup_middle_div p{
+    color: #007bff;
+    margin-left: 70%;
+    font-size: 14px;
+  }
+  /* select button css start*/
+  .custom-select {
+    position: relative;
+    display: inline-block;
+    width: 28%;
+  }
+
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+
+  .select-selected {
+    background-color: white;
+  }
+
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #f1f1f1 transparent transparent transparent;
+  }
+
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #f1f1f1 transparent;
+    top: 7px;
+  }
+
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }

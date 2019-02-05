@@ -1,0 +1,18 @@
+#add{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 860px;
+    color: #fff;
+    width: 150px;
+    padding: 8px;
+    font-size: 20px;
+    background-color: #47D685;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+  #add:hover{
+    cursor: pointer;
+    background-color: #28a745;
+  }

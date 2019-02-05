@@ -1,0 +1,8 @@
+<app-profile-title></app-profile-title><br>
+<app-profile-details></app-profile-details>
+<app-society-info-title></app-society-info-title>
+<app-profile-buttons></app-profile-buttons>
+<app-apply-charges></app-apply-charges>
+<app-address *ngIf="profileService.addressdisplay"></app-address>
+<app-profile-edit *ngIf="profileService.profiledisplay"></app-profile-edit>
+<router-outlet></router-outlet>

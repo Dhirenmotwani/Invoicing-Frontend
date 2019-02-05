@@ -1,0 +1,18 @@
+<div id="add_service_popup">
+      <h2>Service:<div class="space"><button (click)="serviceService.servicepopupclose()"type="button" id="close" name="button">Close</button></div></h2>
+      <form class="add_service_form" action="" method="">
+        <input type="text"id="hi_test" placeholder="Name">
+        <input type="text" id="input_req"name="" value="" placeholder="Description"><br>
+        <span id="first">Rate</span> <span id="second">Tax</span><br>
+        <input style="width:35%" id="rate" type="text" name="" value="" placeholder="0">
+        <input style="width:35%" id="tax" type="text" name="" value="" placeholder="0">
+        <br><br><br>
+        <input type="radio" name="owner_tenant" value="">
+        <label for="">Fixed</label>
+        <input style="margin-left:15%" type="radio" name="owner_tenant" value="">
+        <label for="">Rate/Sq.ft</label>
+      </form>
+      <br>
+      <button class="cancel_button_popup" (click)="serviceService.servicepopupclose()" type="button" name="button">Cancel</button>
+<button class="Save_button_popup"type="button" name="button">Save</button>
+    </div>

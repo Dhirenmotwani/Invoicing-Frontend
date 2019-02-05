@@ -1,0 +1,110 @@
+.person_info_details{
+    height: 90px;
+    margin-left: 330px;
+    width:550px;
+    background-color:white;
+    border-bottom:1px solid #ccc;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    border-radius:10px;
+    margin-top: 60px;
+    }
+.society_details_innerdiv{
+    display:inline-block;
+}
+.left2{
+      position: absolute;
+      margin-left: none;
+      font-size: 20px;
+      background-image: url(/assets/images/home.png);
+      background-size: contain;
+      width:90px;
+      height:90px;
+      border-bottom-right-radius:100px;
+      border-bottom-left-radius:100px;
+      border-top-left-radius:100px;
+      border-top-right-radius:100px;
+}
+    .right{
+    margin-left:10px;
+    /* display:inline-block; */
+}
+.person_info_details_name{
+      display:inline;
+      font-size:18px;
+      margin-left: 100px;
+    }
+    .person_info_details_email{
+      font-size:16px;
+      position: absolute;
+      margin-top:10px;
+      margin-left: 100px;
+      padding-bottom:50px;
+    }
+    .person_info_details_phone{
+      position: absolute;
+      font-size:16px;
+      /* margin-top: 2%; */
+      margin-left: 100px;
+
+    }
+    .edit_society_details{
+          background-color: inherit;
+          border: none;
+          font-size: 20px;
+          margin-left: 310px;
+          color: #007bff;
+          display: inline-block;
+        }
+        .edit_society_details:hover{
+          cursor: pointer;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  animation: cssAnimation 0s 250s forwards;
+  visibility: hidden;
+  position: fixed;
+  margin: none;
+  padding: none;
+  bottom: 0px;
+  font-size: 12px;
+ right: 10px;
+}
+.footer a{
+  text-decoration: none;
+  color: inherit;
+}
+@keyframes cssAnimation {
+to   { visibility: visible; }
+}

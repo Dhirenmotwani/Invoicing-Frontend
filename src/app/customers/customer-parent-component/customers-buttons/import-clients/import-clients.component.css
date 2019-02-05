@@ -1,0 +1,75 @@
+/* custom upload button */
+.btn{
+      background:white;
+      color:#7e7e7e;
+      margin-top:5%;
+      width:50%;
+      margin-left: 150px;
+      border:3px dashed #dedede;
+      padding:10px 10px 10px 10px;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    #import_client_popup{
+      position: fixed;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      border-radius:5px;
+      width:500px;
+      margin-top: 20px;
+      padding-right: 20px;
+      margin-left:500px;
+      padding-bottom: 20px;
+      background-color:white;
+    }
+
+    .Download_button_popup{
+      border:none;
+      color:white;
+      font-size: 20px;
+      color: #007BFF;
+      border: 3px dashed #007BFF;
+      border-radius:6px;
+      padding:10px 10px 10px 10px;
+      background-color:white;
+      width:50%;
+      margin-left:5%;
+      display: inline-block;
+    }
+    .Download_button_popup:hover{
+      cursor:pointer;
+    }
+    .Upload_button_popup{
+      border:none;
+      color:white;
+      font-size: 20px;
+      border-radius:6px;
+      border: 3px dashed #dedede;
+      color: #7e7e7e;
+      padding:10px 10px 10px 10px;
+      background-color:white;
+      width:30%;
+      margin-left:12%;
+      display: inline-block;
+    }
+
+    .Upload_button_popup:hover{
+        cursor:pointer;
+    }
+    #import_client_popup h3{
+      color:#052A43;
+      padding:10px 10px 10px 10px;
+    }
+    #close{
+      background: inherit;
+      border: none;
+      text-decoration: underline;
+      color: #000000;
+    }
+    #close:hover{
+      cursor: pointer;
+    }
+    .space{
+      display:inline;
+      margin-left:240px;
+    }

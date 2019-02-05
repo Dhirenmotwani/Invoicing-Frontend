@@ -1,0 +1,12 @@
+.customer_details_div{
+  position: relative;
+  margin-left: 330px;
+  width: 960px;
+  margin-bottom: 1%;
+  padding-bottom: 20px;
+  background-color: white;
+  text-align: left;
+}
+p , h3{
+  margin-left: 10px;
+}

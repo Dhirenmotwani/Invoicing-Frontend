@@ -1,0 +1,24 @@
+<div id="edit_temp_popup">
+      <h2>Edit Template information </h2>
+      <form class="edit_temp_form" action="" method="">
+       <div id="inner_box">
+       <span id="one">Template Name</span>
+        <input type="text" id="hi_test" placeholder="">
+        <span id="two"></span>
+        <input type="text" id="input_req"name="" value="" required="required" placeholder="Amount"><input type="radio" name="" value="" id="fix"><label>Fixed</label><input type="radio" name="" value="" id="percent"><label>Percentage</label><br>
+        <span id="three">Penalty Frequency</span>
+        <select class="penalty" name="">
+          <option value=""></option>
+          <option value="">DAILY</option>
+          <option value="">WEEKLY</option>
+          <option value="">MONTHLY</option>
+          <option value="">YEARLY</option>
+          <option value="">ONE TIME</option>
+        </select>
+        <span id="two">Grace Period(in Days)</span>
+        <input style="width:90%" type="text" name="" value="" required="required" placeholder=""></div>
+        <br>
+        <button (click)="serviceService.informationclose()"type="submit" id="cancel" name="cancel">Cancel</button><div class="space">
+          <button type="submit" id="save" name="button">Save</button></div>
+      </form>
+    </div>

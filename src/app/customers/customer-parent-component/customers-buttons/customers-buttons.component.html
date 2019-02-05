@@ -1,0 +1,4 @@
+<button (click)="customerbuttonService.importclientopen()"  type="button" name="add" id="import">Import Clients</button>
+<button (click)="customerbuttonService.addclientopen()"type="button" name="add" id="add" >Add Client</button>
+<app-add-client-popup *ngIf="customerbuttonService.displayaddclient"></app-add-client-popup>
+<app-import-clients *ngIf="customerbuttonService.displayimportclient"></app-import-clients>

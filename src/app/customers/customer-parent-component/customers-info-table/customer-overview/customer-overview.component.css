@@ -1,0 +1,323 @@
+/* popup box */
+  #add_client_popup{
+    position: absolute;
+    text-align: left;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius:5px;
+    width:70%;
+    left:150px;
+    z-index: 100;
+    top: 30px;
+    background-color:white;
+  }
+  /* popup title */
+  .overview_title{
+    display: inline-block;
+    font-size:20px;
+    padding-top:10px;
+    margin-left: 20px;
+  }
+  /* close button */
+  #close{
+    background: inherit;
+    border: none;
+    margin-left: 100%;
+    text-decoration: underline;
+    color: #000000;
+  }
+  #close:hover{
+    cursor: pointer;
+  }
+  /* Split popup */
+  .split{
+    margin-left:2%;
+    width:46%;
+  }
+  .split1{
+    margin-left:2%;
+    display:inline-block;
+  }
+  /* left part */
+  .left{
+    position: relative;
+    left:0%;
+    display: inline-block;
+  }
+  .left2{
+      position: relative;
+      margin-top: -5%;
+      text-align:center;
+      width:20%;
+      background-color:white;
+      border:2px solid #fdd7a4;
+      border-bottom-right-radius:50%;
+      border-bottom-left-radius:50%;
+      border-top-left-radius:50%;
+      border-top-right-radius:50%;
+    }
+    .right{
+      position: absolute;
+      display:inline-block;
+    }
+  /* Close button div */
+  .close_div{
+    width: 80%;
+    display:inline-block;
+  }
+  .building_info{
+    padding:3%;
+  }
+  .person_info_details{
+    background-color:rgba(0, 123, 255, 0.05);
+    border-bottom:1px solid #ccc;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    padding:3%;
+    border-radius:10px;
+  }
+  .person_info_title{
+    margin-bottom:3%;
+  }
+  .person_info_edit{
+    display:inline-block;
+    margin-left:72%;
+  }
+  .person_info_edit_button{
+    display:inline-block;
+    background-color:inherit;
+    border:none;
+    color:#3690e3;
+    font-size:20px;
+    padding:none;
+  }
+  .person_info_edit_button:hover{
+    cursor:pointer;
+    color:#15548d;
+  }
+  .person_info_details_name{
+    display:inline;
+    font-size:18px;
+  }
+  .person_info_details_owner{
+    margin-left:150px;
+    padding:3px;
+    font-size:15px;
+    color:#052A43;
+    display: inline;
+    border-radius:15px;
+    background-color:#C3FDA4;
+  }
+  .person_info_details_email{
+    font-size:14px;
+    margin-top:10px;
+  }
+  .person_info_details_phone{
+    font-size:14px;
+    margin-top:5px;
+  }
+  .name_initials{
+    font-size:25px;
+  }
+  .building_info_div{
+    margin-top:3%;
+    background-color:rgba(0, 123, 255, 0.05);
+    border-bottom:1px solid #ccc;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    padding:3%;
+    border-radius:10px;
+  }
+  .building_info_input{
+    color:#052A43;
+    padding-bottom:10px;
+    font-size:16px;
+    border:none;
+    border-bottom:1px solid #dedede;
+    background-color:rgba(0, 123, 255,0);
+    width:40%;
+    margin-left:10px;
+  }
+  .building_info_input_label{
+    display:inline;
+    margin-left:10px;
+    color:#3690e3;
+  }
+  .label_flat_number{
+    margin-left:55px;
+  }
+  .label_flat_type{
+    margin-left:135px;
+  }
+  .cancel_button_div{
+
+  }
+  .invoice_details{
+    width: 60%;
+    background-color:rgba(0, 123, 255, 0.05);
+    border-bottom:1px solid #ccc;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    padding:3%;
+    padding-left: 20px;
+    border-radius:10px;
+
+  }
+  .invoice_details p{
+    margin: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  .invoice{
+    position: relative;
+  }
+
+  .template_upload_div p{
+    font-size: 16px;
+    display: inline-block;
+  }
+  .template_upload_remove_button{
+    background-color: inherit;
+    color: red;
+    margin-left: 60%;
+    font-size: 16px;
+    border: none;
+  }
+  .deactivate_button{
+    font-size: 22px;
+    color: #222;
+    padding: 3px;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 5%;
+    border-radius: 6px;
+    border:2px solid #707070;
+  }
+  .deactivate_button:hover{
+    cursor: pointer;
+  }
+  .save {
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 15%;
+    border-radius:6px;
+    background-color: #218838;
+  }
+  .save:hover{
+    cursor: pointer;
+  }
+  .template_upload_remove_button:hover{
+    cursor: pointer;
+  }
+  .template_upload_field{
+    background-color: inherit;
+    border: 1px dashed #4384EC;
+    color: #007bff;
+    width: 98%;
+    height: 160px;
+    border-radius: 6px;
+  }
+  .amount_payment_div{
+    width: 60%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    background-color:rgba(0, 123, 255, 0.05);
+    padding: 1%;
+    border-radius: 10px;
+    padding-left: 20px;
+  }
+  .amount_payment_div p{
+    font-size: 16px;
+    color: #007bff;
+  }
+  .amount__payment_input{
+    border: none;
+    background-color:rgba(0, 123, 255, 0);
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 20px;
+  }
+  .cancel_button{
+    border:1px solid #707070;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    color: #707070;
+    font-size: 20px;
+    margin-top: 56%;
+  }
+  .cancel_button:hover{
+    cursor: pointer;
+  }
+  .invoice_details_date{
+    background-color:rgba(0, 123, 255, 0);
+    border: none;
+    border-bottom: 1px solid #dedede;
+    padding: 10px;
+    width: 45%;
+    font-size: 20px;
+  }
+  /* select button start */
+  .custom-select {
+    border: none;
+    position: relative;
+    /* font-family: Arial; */
+    display: inline-block;
+    width: 95%;
+  }
+
+  .custom-select select {
+    display: none; /*hide original SELECT element:*/
+  }
+
+  .select-selected {
+    background-color:rgba(0, 123, 255, 0) ;
+  }
+
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #dedede transparent transparent transparent;
+  }
+
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #dedede transparent;
+    top: 7px;
+  }
+
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* select button css end */
+  .person_info_title p{
+    display: inline-block;
+  }

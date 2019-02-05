@@ -1,0 +1,29 @@
+<div class="Service_overview_popup">
+      <p class="service_overview_title">Overview:</p>
+      <div class="template_information_div">
+        <p class="template_information_header">Template Information:</p>
+        <button (click)="serviceService.informationopen()"class="template_information_header_edit"type="button" name="button">Edit</button>
+        <div class="template_details_div">
+          <p>Template name</p><br>
+          <input style="width:90%"type="text" name="" value=""><br>
+          <p>Amount</p><p>Penalty Frequency</p><p>Grace Period(in Days)</p><br>
+          <input type="text" name="" value="">
+          <input style="width:27%"type="text" name="" value="">
+          <input style="width:25%"type="text" name="" value="">
+        </div>
+        <div class="split left">
+          <p>Services:</p><button (click)="serviceService.serviceopen()"type="button" name="button">Edit</button>
+          <div class="service_overview_popup_services">
+            <input type="text" name="" value="" placeholder="Unknown"><br>
+          </div>
+          <button  (click)="serviceService.templateclose()"id="cancel_button_popup_template"type="button" name="button">Cancel</button>
+        </div>
+        <div class="split right">
+          <p id="person">Person:</p><button (click)="serviceService.personopen()" name="button" id="edit">Edit</button>
+          <div class="service_overview_popup_person">
+            <input type="text" name="" value=""placeholder="Unknown">
+          </div>
+          <button id="Save_button_popup_template"type="button" name="button">Save</button>
+        </div>
+      </div>
+    </div>

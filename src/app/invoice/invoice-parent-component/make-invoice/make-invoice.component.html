@@ -1,0 +1,87 @@
+<div class="main_make_invoice_div">
+  <h2>New Invoice</h2>
+  <button type="button" (click)="invoiceService.makeinvoiceclose()"routerLink="../" name="" id="cancel">Cancel</button>
+  <button type="button" name="" id="save">Save</button>
+  <button type="button" name="" id="send">Send</button>
+<div class="invoice_div">
+  <p id="heading">Society Name</p><p id="address">Address</p>
+        <div class="split left2">
+          <p class="billing_heading">Invoice Number</p>
+          <div class="div_invoice_details">
+          <div class="div_invoice_details_input">
+            0001
+          </div>
+          </div>
+        </div>
+        <div class="split right2">
+          <p class="billing_heading">Reference Number</p>
+          <div class="div_invoice_details">
+          <div class="div_invoice_details_input">
+            000
+          </div>
+          </div>
+        </div>
+        <div class="div_invoice_details">
+          <p style="margin-left:4%">Billed To</p>
+          <button type="button" id="div_invoice_details_input">
+            + Add Client
+          </button>
+        </div>
+        <div class="div_invoice_details">
+          <p>Date of Issue</p>
+          <div class="div_invoice_details_inputdate">
+            03/01/01
+          </div>
+      </div>
+        <br>
+        <div class="space2">
+        <div class="div_invoice_details">
+          <p>Due Date</p>
+          <div class="div_invoice_details_inputdate">
+            31/08/18
+          </div>
+        </div>
+      </div>
+        <table class="payment_details_table">
+          <tr class="table_heading_particulars">
+            <th style="width:35%;">PARTICULARS</th>
+            <th style="width:15%;">MONTH</th>
+            <th style="width:25%;">Rate/Sq Ft</th>
+            <th style="width:25%;">AMOUNT</th>
+          </tr>
+          <tr>
+            <td>Your Service</td>
+            <td>1</td>
+            <td>40</td>
+            <td>20000</td>
+          </tr>
+        </table><br>
+        <button type="button" id="div_invoice_details_input1">
+          + Add a New Line
+        </button>
+        <button type="button" id="div_invoice_details_input1">
+          + Add Template
+        </button><br>
+        <h3>Note:</h3>
+</div>
+<div class="Settings">
+  <p id="title">Settings</p>
+  <div class="pay_method">
+    <button type="button" name="button" id="pay_title">Payment Method</button><hr>
+    <p id="bank">Bank Details:</p>
+    <p id="bank">Account Number</p>
+    <p id="bank">12121212121212121</p>
+    <hr>
+    <p id="paid">Paid by</p>
+    <p id="paid1">SpiderG</p>
+    <p id="paid1">Cheque <input type="radio" name="" value="" id="rd1"> </p>
+  </div>
+  <div class="recurring">
+    <button type="button" name="button" id="recurring_title">Recurring Schedule</button>
+    <p id="schedule">Monthly <input type="radio" name="" value="" id="rd2" > </p>
+    <p id="schedule">Quarterly <input type="radio" name="" value="" id="rd3"> </p>
+    <p id="schedule">Half Yearly <input type="radio" name="" value="" id="rd4"> </p>
+    <p id="schedule">Yearly <input type="radio" name="" value="" id="rd5"> </p>
+  </div>
+</div>
+</div>

@@ -1,0 +1,37 @@
+#service{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 100px;
+    color: #052A43;
+    height: 75px;
+    width:200px;
+    padding: 8px;
+    font-size: 20px;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+  #service:hover{
+    cursor: pointer;
+    color: #007BFF;
+  }
+  #temp{
+    margin-left: 560px;
+    margin-top: 100px;
+    position: absolute;
+    color: #052A43;
+    height: 75px;
+    width:200px;
+    padding: 8px;
+    font-size: 20px;
+    background-color:#fff;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+  #temp:hover{
+    cursor: pointer;
+    color: #007BFF;
+  }

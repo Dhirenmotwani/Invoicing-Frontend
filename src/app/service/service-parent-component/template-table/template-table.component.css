@@ -1,0 +1,41 @@
+.services_content{
+    margin-left:1%;
+    width:95%;
+    margin-bottom: 8px;
+    /* height:40%; */
+    position:relative;
+    border-radius:8px;
+    padding-left:8px;
+    border:3px solid #4384EC;
+  }
+  .services_content p{
+    margin:10px;
+  }
+  .template_title{
+    display:inline-block;
+    height:10%;
+    margin-top:3px;
+    font-size:20px;
+    font-weight:bold;
+  }
+  .services_div{
+    height:10%;
+    display:inline-block;
+    font-size:14px;
+    background-color:#EEF8CD;
+    margin-right:8px;
+    margin-bottom:3px;
+    padding:10px;
+    border-radius:14px;
+  }
+  .template_content{
+    position: absolute;
+    margin-left: 330px;
+    margin-top:180px;
+    padding: 10px;
+    background-color: white;
+    width:960px;
+    height: 500px;
+    overflow:auto;
+    cursor: pointer;
+  }

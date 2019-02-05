@@ -1,0 +1,12 @@
+<button *ngIf="invoiceService.makeinvoicedisplay"(click)="invoiceService.exportclientopen()"type="button" name="add" id="export">Export Excel</button>
+<button *ngIf="invoiceService.makeinvoicedisplay"(click)="invoiceService.makeinvoiceopen()" routerLink="make-invoice"type="button" name="add" id="make">Make Invoice</button>
+<br><br>
+ <app-customer-details *ngIf="invoiceService.detailsdisplay"></app-customer-details>
+<button *ngIf="invoiceService.makeinvoicedisplay"(click)="invoiceService.tableclose()"routerLink="view-all" type="button" name="button" id="viewall">View All<br>&emsp;</button>
+<button *ngIf="invoiceService.makeinvoicedisplay"(click)="invoiceService.tableclose()"routerLink="overdue" type="button" name="service" id="over">Over Due</button>
+<button *ngIf="invoiceService.makeinvoicedisplay"(click)="invoiceService.tableclose()"routerLink="total-outstanding" type="button" name="temp" id="total">Total Outstanding</button>
+<button *ngIf="invoiceService.makeinvoicedisplay"(click)="invoiceService.tableclose()"routerLink="paid" type="button" name="temp" id="paid">Paid</button><br>
+<app-invoice-title *ngIf="invoiceService.makeinvoicedisplay"></app-invoice-title><br><br><br><br>
+<app-invoice-info-table *ngIf="invoiceService.tabledisplay"></app-invoice-info-table>
+<app-export-popup *ngIf="invoiceService.exportclientdisplay"></app-export-popup>
+<router-outlet></router-outlet>

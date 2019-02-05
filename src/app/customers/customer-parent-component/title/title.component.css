@@ -1,0 +1,12 @@
+p{
+  margin-left: 330px;
+  padding-top: 2%;
+  font-size: 28px;
+  font-weight: bold;
+  float: left;
+  /* font-family: inherit; */
+  margin-top: 0;
+  color: inherit;
+
+  display: inline-block;
+}

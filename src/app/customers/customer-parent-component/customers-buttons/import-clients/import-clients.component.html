@@ -1,0 +1,15 @@
+<div id="import_client_popup">
+      <h3>Import Clients :
+        <div class="space">
+          <button (click)="customerbuttonService.importclientclose()"type="button" id="close" name="button">Close</button>
+        </div>
+      </h3>
+      <form class="import_client_form" action="" method="">
+        <button class="btn" onclick="document.getElementById('getFile').click()">Custom Upload(.xls, .xlsx)</button>
+        <input type='file' id="getFile" style="display:none">
+      </form>
+      <br>
+      <br>
+      <button class="Download_button_popup"type="button" name="button">Download Smaple Excel</button>
+      <button class="Upload_button_popup"type="button" name="button">Upload Items</button>
+    </div>

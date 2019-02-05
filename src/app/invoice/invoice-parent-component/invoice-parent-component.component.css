@@ -1,0 +1,114 @@
+*{
+  text-align: left;
+}
+#export{
+  margin-top: 27px;
+  margin-left: 300px;
+  margin-right: 20px;
+  color: inherit;
+  width: 150px;
+  padding: 10px;
+  font-size: 22px;
+  background-color: #707070;
+  border-color: #707070;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#export:hover{
+  cursor: pointer;
+}
+#make{
+  margin-top: 27px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: inherit;
+  width: 150px;
+  padding: 10px;
+  font-size: 22px;
+  background-color: #707070;
+  border-color: #707070;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#make:hover{
+    cursor: pointer;
+}
+#viewall{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 170px;
+  color: #fff;
+  height: 75px;
+  width:200px;
+  padding: 5px 10px 10px 10px;
+  font-size: 20px;
+  background-color: #00bfff;
+  text-align: center;
+  /* display: flex; */
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+#viewall:hover{
+  border: 3px solid #0066ff;
+  cursor: pointer;
+  color: #fff;
+}
+#over{
+  margin-left: 15px;
+  color: #fff;
+  height: 75px;
+  width: 200px;
+  padding: 5px 10px 10px 10px;
+  font-size: 20px;
+  background-color: #E8A650;
+  text-align: center;
+  display: flex;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#over:hover{
+  cursor: pointer;
+  color: #fff;
+  border: 3px solid #be5e00;
+}
+#total{
+  color: #fff;
+  margin-left: 15px;
+  height: 75px;
+  width: 200px;
+  padding: 5px 10px 10px 10px;
+  font-size: 20px;
+  background-color:#E44646;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#total:hover{
+  cursor: pointer;
+  color: #fff;
+  border: 3px solid #b20000;
+}
+#paid{
+  color: #fff;
+  margin-left: 15px;
+  width: 200px;
+  height: 75px;
+  padding: 5px 10px 10px 10px;
+  font-size: 20px;
+  background-color:#1ED56D;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#paid:hover{
+  cursor: pointer;
+  color: #fff;
+  border: 3px solid darkgreen;
+}

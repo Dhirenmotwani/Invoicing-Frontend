@@ -1,0 +1,28 @@
+<button *ngIf="invoiceService.finalinvoicedisplay"(click)="invoiceService.tableopen()"routerLink="../"class="back_button"type="button" name="button">&#8592;</button>
+
+<div id="table-wrapper">
+      <div id="table-scroll">
+        <table>
+          <tr>
+            <th style="text-align:left"><span>Issue Date</span></th>
+            <th><span>Invoice No.</span></th>
+            <th><span>Grand Total</span></th>
+            <th><span>Reamaining Total</span></th>
+            <th><span>Due Date</span></th>
+            <th><span>Last Paid On</span></th>
+            <th><span>Total Paid</span></th>
+          </tr>
+          <tr  routerLink="/main-invoice">
+            <td style="text-align:left">Floria,Flat No:596</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+<router-outlet></router-outlet>
